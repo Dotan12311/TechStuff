@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #272A35;
+    text-align: right;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* opacity: 0; */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+}
+
+.logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* .shuffle-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: limegreen;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+} */
+
+.shufflebtn {
+    background-image: url(./shuffle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5ce1e6;    ;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    background-size: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0 10px 0 14px;
+}
+
+.shuffle-button img {
+    /* width: 38px;
+    height: 38px; */
+    /* max-width: fit-content;
+    max-height: fit-content;
+    height: 1cm; */
+    /* width: 50%;
+    height: 50%; */
+}
+
+.menu {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: #007bff;
+    border-radius: 50%; */
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu img {
+    max-width: fit-content;
+    max-height: fit-content;
+    height: 1cm;
+    /* max-width: 100%;
+    height: auto; */
+}
+
+@media (max-width: 768px) {
+
+    .shuffle-button,
+    .menu {
+        position: static;
+        transform: none;
+    }
+}
