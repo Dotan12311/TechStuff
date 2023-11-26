@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust the color to match your website's design */
+    padding: 10px 20px;
+    color: white; /* Adjust the text color to match your website's design */
+}
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.shuffle-icon-container, .menu-icon-container {
+    background-color: red; /* Red background color */
+    padding: 5px; /* Adjust the padding as needed */
+    border-radius: 50%; /* Creates a circular shape */
+}
+
+.shuffle-icon img, .menu-icon img {
+    max-width: 20px; /* Adjust the width of your icons */
+}
+
+.center-section {
+    flex: 1; /* Takes up remaining space in the center */
+    text-align: center;
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the height of your logo */
+}
+
+.menu-icon img {
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
