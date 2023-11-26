@@ -17,7 +17,7 @@ header {
     align-items: center;
 }
 
-.shuffle-icon-container, .menu-icon-container {
+.shuffle-icon, .menu-icon {
     background-color: red; /* Red background color */
     padding: 5px; /* Adjust the padding as needed */
     border-radius: 50%; /* Creates a circular shape */
