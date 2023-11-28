@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Adjust the color to match your website's design */
+    background-color: #272A35; /* Adjust the color to match your website's design */
     padding: 10px 20px;
     color: white; /* Adjust the text color to match your website's design */
 }
@@ -20,7 +20,9 @@ header {
 .shuffle-icon, .menu-icon {
     background-color: red; /* Red background color */
     padding: 5px; /* Adjust the padding as needed */
-    border-radius: 50%; /* Creates a circular shape */
+    border-width: 5px;
+    border-height: 5px;
+    border-radius: 100px; /* Creates a circular shape */
 }
 
 .shuffle-icon img, .menu-icon img {
